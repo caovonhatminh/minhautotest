@@ -1,6 +1,6 @@
 from playwright.sync_api import sync_playwright
 import pytest, time, sys, os
-#from masterPage import MasterPage
+from models.MasterPage import MasterPage
 
 def test_login(): # Đổi tên hàm để pytest nhận diện
     with sync_playwright() as p:
