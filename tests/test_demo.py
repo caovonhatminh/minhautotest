@@ -10,6 +10,7 @@ def test_example_page_title(): # Đổi tên hàm để pytest nhận diện
         assert "Swag Labs" in page.title()
         print(f"Page title: {page.title()}") # Thêm dòng này để in ra tiêu đề trang
         browser.close()
+        
 
 # Ví dụ một test case khác, nếu bạn muốn
 # def test_another_example():
